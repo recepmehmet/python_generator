@@ -130,6 +130,7 @@ def _jump(function_input_number_keeper, past_commands, list_of_funtions, jump_ra
         command_functions(function_input_number_keeper, function_command, list_of_funtions, input_functional_number )
     yield function_input_number_keeper
 
+
 def command_functions(function_input_number_keeper, function_command, list_of_funtions, input_functional_number):
     if function_command == list_of_funtions[0]:  # ADD
         next(_addition(function_input_number_keeper))
